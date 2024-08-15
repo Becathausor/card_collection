@@ -1,0 +1,30 @@
+Product database
+id (primary)
+type
+product_id
+
+Card database
+id (primary)
+Name of the card
+release extension
+version in the release
+is Foil
+is Full art
+Illustration author
+State of the card
+
+
+extension
+id (primary)
+Name of release
+Date of release
+
+
+Price database
+id (primary)
+card_id
+Date of last request
+Lowest price of the day
+Average sell of the day
+Average sell of the week (to be deprecated)
+Average sell of the month (to be deprecated)
