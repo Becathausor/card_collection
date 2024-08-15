@@ -1,1 +1,19 @@
-# card_collection
+# Collection tracking prices
+
+This project aims at scrapping the price of my MTG collection along time.
+
+## Root path
+
+### Price tracking
+
+x Define the format of the output.
+x Find an API in order to get prices over time.
+o Create a restricted of the products information
+o Implement a script to request Cardmarket and digest the responses to update the .csv
+o Create statistics over time and store it in order to create a dashboard.
+
+### Collection recognition
+
+o Create an image recognition model in order to find the card informations.
+o Implement the model and test it until the reach of a satisfactory score.
+o Match the output with the price tracking sub-project.
