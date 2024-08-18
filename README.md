@@ -2,13 +2,16 @@
 
 This project aims at scrapping the price of my MTG collection along time.
 
-## Root path
+## Roadmap
 
 ### Price tracking
 
 - [x] Define the format of the output.
 - [x] Find an API in order to get prices over time.
-- [ ] Create a restricted of the products information
+- [ ] Implement a basic architecture that will temporarily define the modularity of the project
+- [ ] Implement the first concrete objects for a joujou
+- [ ] Write the first tests
+- [ ] Create a restricted list of product information
 - [ ] Implement a script to request Cardmarket and digest the responses to update the .csv
 - [ ] Create statistics over time and store it in order to create a dashboard.
 
